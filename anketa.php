@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Анкета | Лабораторная работа №5</title>
+    <title>Анкета | Лабораторная работа №6</title>
     <link rel="icon" type="image/x-icon" href="j.ico">
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1"></script>
@@ -24,6 +24,7 @@
         </div>
         <div class="nav-links">
             <a href="index.php">Главная</a>
+            <a href="admin.php">ADMIN</a>
             <a href="v.php">Просмотр анкет</a>
             <?php if ($is_logged_in): ?>
                 <a href="index.php?logout=1" style="color:#ffaa66;">Выйти</a>
@@ -129,7 +130,7 @@
     </form>
 
     <div class="site-footer">
-        <p>ЛАБОРАТОРНАЯ РАБОТА №5</p>
+        <p>ЛАБОРАТОРНАЯ РАБОТА №6</p>
     </div>
 </div>
 

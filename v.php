@@ -43,6 +43,7 @@ try {
         <h1>Сохранённые анкеты</h1>
         <div class="nav-links">
             <a href="index.php">Форма</a>
+            <a href="admin.php">ADMIN</a>
             <?php if (isset($_SESSION['application_id'])): ?>
                 <a href="index.php?logout=1">Выйти</a>
             <?php else: ?>
@@ -79,7 +80,7 @@ try {
     </div>
 
     <div class="site-footer">
-        <p>ЛАБОРАТОРНАЯ РАБОТА №5</p>
+        <p>ЛАБОРАТОРНАЯ РАБОТА №6</p>
     </div>
 </div>
 </body>
